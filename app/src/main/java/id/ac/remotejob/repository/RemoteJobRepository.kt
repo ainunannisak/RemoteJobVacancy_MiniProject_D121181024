@@ -3,8 +3,8 @@ package id.ac.remotejob.repository
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import id.ac.remotejob.api.RemoteJobResponse
 import id.ac.remotejob.api.RetrofitInstance
+import id.ac.remotejob.models.RemoteJobResponse
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

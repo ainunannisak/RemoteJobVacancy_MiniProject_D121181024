@@ -24,8 +24,8 @@ class RetrofitInstance {
                 .build()
         }
 
-        val apiService : RemoteJobResponse by lazy {
-            retrofit.create(RemoteJobResponse::class.java)
+        val apiService : RemoteJobApi by lazy {
+            retrofit.create(RemoteJobApi::class.java)
         }
     }
 }
