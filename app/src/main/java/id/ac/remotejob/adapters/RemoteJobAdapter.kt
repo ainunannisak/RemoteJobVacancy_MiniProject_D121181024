@@ -60,7 +60,7 @@ class RemoteJobAdapter : RecyclerView.Adapter<RemoteJobAdapter.RemoteJobViewHold
             binding?.tvDate?.text = dateJob?.get(0)
 
         }.setOnClickListener { mView ->
-            val direction = MainFragmentDirections.actionMainFragmentToJobDetailsViewsFragment()
+            val direction = MainFragmentDirections.actionMainFragmentToJobDetailsViewsFragment(currentJob)
             mView.findNavController().navigate(direction)
         }
     }
