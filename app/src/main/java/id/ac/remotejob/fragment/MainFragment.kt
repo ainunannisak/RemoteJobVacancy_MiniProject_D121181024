@@ -37,9 +37,7 @@ class MainFragment : Fragment(R.layout.fragment_main) {
         val adapter = FragmentPagerItemAdapter(
         childFragmentManager,
         FragmentPagerItems.with(activity)
-            .add("Jobs", RemoteJobFragment::class.java)
-            .add("Search", SearchjobFragment::class.java)
-            .add("Saved Jobs", SavedJobFragment::class.java)
+            .add("Job Vacancy", RemoteJobFragment::class.java)
             .create()
         )
 

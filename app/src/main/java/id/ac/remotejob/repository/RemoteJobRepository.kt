@@ -33,7 +33,6 @@ class RemoteJobRepository {
                 }
             }
         )
-
     }
 
     fun remoteJobResult(): LiveData<RemoteJobResponse>{
