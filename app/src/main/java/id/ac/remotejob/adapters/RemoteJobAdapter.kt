@@ -42,6 +42,7 @@ class RemoteJobAdapter : RecyclerView.Adapter<RemoteJobAdapter.RemoteJobViewHold
         return RemoteJobViewHolder(binding!!)
     }
 
+    //Fetching data from api
     override fun onBindViewHolder(holder: RemoteJobViewHolder, position: Int) {
         val currentJob = differ.currentList[position]
 

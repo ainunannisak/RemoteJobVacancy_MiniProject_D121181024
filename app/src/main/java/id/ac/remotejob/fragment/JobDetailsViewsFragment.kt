@@ -39,6 +39,7 @@ class JobDetailsViewsFragment : Fragment(R.layout.fragment_job_details_views) {
 
         currentJob = args.job!!
 
+        //Share intent
         setUpWebView()
         binding.shareIntent.setOnClickListener {
             Log.e("1111:::: ", currentJob.title.toString())
@@ -58,6 +59,7 @@ class JobDetailsViewsFragment : Fragment(R.layout.fragment_job_details_views) {
             currentJob.url?.let { loadUrl(it) }
         }
 
+        //Get javascript from webview
         val settings = binding.webView.settings
         settings.javaScriptEnabled = true
         settings.setAppCacheEnabled(true)
