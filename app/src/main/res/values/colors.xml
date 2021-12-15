@@ -4,5 +4,6 @@
     <color name="blue">#3F72AF</color>
     <color name="dark_blue">#112D4E</color>
     <color name="black">#222831</color>
-
+    <color name="orange">#ff8719</color>
+    <color name="brown">#522a22</color>
 </resources>
